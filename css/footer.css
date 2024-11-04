@@ -1,0 +1,129 @@
+footer{
+  
+}
+footer div.wrap{
+  display: grid;
+  grid-template-columns: 15% 1fr 17%;
+  grid-template-rows: auto auto auto;
+  row-gap: 20px;
+  width: 1190px;
+}
+footer div.wrap ul.flex.fnb{
+  grid-column: 1 / span 2;
+  grid-row: 1;
+  display: flex;
+  justify-self: start;
+  gap: 30px;
+  position: relative;
+  margin-bottom: 40px;
+}
+footer div.wrap ul.flex.fnb::after{
+  content: "";
+  display: block;
+  width: calc(100vw - 17px);
+  bottom: -36px;
+  position: absolute;
+  border-bottom: 3px solid #3a466a;
+  left: calc((1903px - 1190px) / -2);
+}
+footer div.wrap ul.flex.sns{
+  
+  grid-column: 3;
+  grid-row: 2;
+  justify-content: space-around;
+}
+footer div.wrap ul.flex li{
+  
+  font-size: 0;
+}
+footer div.wrap ul.flex li a{
+  
+  color: #3a466a;
+  font-weight: 900;
+}
+footer div.wrap p.tel{
+  
+  color: #00a6b1;
+  font-weight: 900;
+}
+footer div.wrap h1{
+  grid-column: 1;
+  grid-row: 2 / span 3;
+  font-size: 0;
+  width: 120px;
+  height: 65px;
+  background: url(../img/png/footer-logo.png) no-repeat center;
+}
+footer div.wrap h1 a{
+  
+}
+footer div.wrap address{
+  grid-column: 2;
+  grid-row: 2;
+  font-style: normal;
+  line-height: 1.9;
+  font-weight: 500;
+  color: #222;
+}
+footer div.wrap address .inline-block{
+  margin: 0px 10px;
+}
+footer div.wrap address .block{
+  
+}
+footer div.wrap address span{
+  
+}
+footer div.wrap ul.flex .sns{
+  
+}
+footer div.wrap ul.flex .sns li{
+  
+}
+footer div.wrap ul.sns li:nth-child(1) a{
+  width: 30px;
+  height: 30px;
+  background: url(../img/png/ico-insta.png);
+}
+footer div.wrap ul.sns li:nth-child(2) a{
+  width: 30px;
+  height: 30px;
+  background: url(../img/png/ico-blog.png);
+}
+footer div.wrap ul.sns li:nth-child(3) a{
+  width: 30px;
+  height: 30px;
+  background: url(../img/png/ico-fb.png);
+}
+footer div.wrap ul.sns li:nth-child(4) a{
+  width: 30px;
+  height: 30px;
+  background: url(../img/png/ico-youtub.png);
+}
+footer div.wrap ul.sns li:nth-child(5) a{
+  width: 30px;
+  height: 30px;
+  background: url(../img/png/ico-app.png);
+}
+footer div.wrap ul.sns li a{
+  
+}
+footer div.wrap p.copyright{
+  
+  grid-column: 2;
+  grid-row: 3;
+  color: #bbb;
+  margin-top: 15px;
+}
+#top-btn {
+  grid-column: 3;
+  grid-row: 1;
+  justify-self: end;
+  display: inline-block;
+  width: 27px;
+  height: 15px;
+  background: url(../img/png/ico-arr-top.png) no-repeat 50% 50%;
+  font-size: 0;
+  border: none;
+  cursor: pointer;
+}
